@@ -16,7 +16,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    // TODO: change github link
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
@@ -25,7 +24,7 @@ builder.Services.AddSwaggerGen(options =>
         Contact = new OpenApiContact
         {
             Name = "Github",
-            Url = new Uri("https://github.com")
+            Url = new Uri("https://github.com/emptycamp/SquaresAPI")
         }
     });
 
